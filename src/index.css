@@ -15,3 +15,28 @@ code {
 .logo {
   max-width: 150px;
 }
+
+.img-container {
+  position: relative;
+  width: 100%;
+}
+
+.img-container__img {
+  width: 100%;
+  height: auto;
+}
+
+.img-container .img-container__btn {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

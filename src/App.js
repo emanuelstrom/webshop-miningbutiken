@@ -1,10 +1,11 @@
+import Hem from "./components/Hem/Hem";
 import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      hej
+      <Hem />
     </div>
   );
 }
