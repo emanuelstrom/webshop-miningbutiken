@@ -34,9 +34,7 @@ code {
   -ms-transform: translate(-50%, -50%);
 }
 
-.wrapper {
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* Product Card */
+.product__img {
+  width: 100%;
 }
